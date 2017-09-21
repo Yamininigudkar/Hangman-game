@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hangman game</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+<div class="container">
+<div class="jumbotron">
+<header>Hangman Game</header>
+<img src="hangman.gif" style width="200px">
+</div>
+<div class="row">
+
+	<div class="col-md-6">
+	<h2>Word: <span id="words">_</span></h2>
+
+	
+	<h3>Guessses left:<span id="triesleft">9</span></h3>
+
+	<h3>Your guesses so far:<span id="userchoice"></span></h3>
+	</div>
+	<div class="col-md-6">
+	<ul>
+		<h2>Instructions</h2>
+		<p>In this game you have to guess the word that the computer has chosen</p>
+		<li>Enter any alphabet key,it should be lowercase</li>
+		<li>If the alphabet chosen is in the word it will be displayed in its appropriate place.</li>
+		<li>If the alphabet chosen is not in the word then you lose one guess</li>
+		<li>You have a total of 10 guesses to guess the correct word</li>
+	</ul>
+
+		
+	</div>
+
+
+
+</body>
+</html>

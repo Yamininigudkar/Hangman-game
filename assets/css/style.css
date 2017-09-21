@@ -1,0 +1,23 @@
+body
+{
+	background-color: lightgrey;
+}
+header
+{
+	border: 5px;
+	border-color: white;
+	border:solid;
+	text-align: center;
+	background-color: maroon;
+	font-size: 200%;
+	font-weight: bold;
+	color: yellow;
+
+
+
+}
+.jumbotron
+{
+	text-align: center;
+	background-color: black;
+}
